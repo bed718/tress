@@ -1,32 +1,29 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-	<head>
-		<title>TReSs | Apothecary & Salon</title>
-		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/style.css">
+  <head>
+    <title>TReSs | Apothecary & Salon</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta property="og:title" content="" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="" />
-		<meta property="og:image" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-	</head>
+  </head>
 
-	<body>
+  <body>
 
-		<div id="wrap">
-			
-			<div id="logo">
-				<div class="inner">
-					
-				</div>
-			</div>
+    <div id="wrap">
+      
+      
 
-			
+      
 
-			<div id="footer">
+      <div id="footer">
         <div id="soon">
           <div class="inner">
             Join our Mailing List
@@ -79,8 +76,6 @@
 </script>
 <script type='text/javascript' src='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/js/signup-form.js'></script>
 
-
-
-	</body>
+  </body>
 
 </html>

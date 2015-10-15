@@ -22,7 +22,7 @@ body{
 }
 
 a{
-  @include transition;
+  //@include transition;
   color: $color_accent;
   text-decoration: none;
   
@@ -77,7 +77,7 @@ li.opened span.nolink{color: $color_main;}
 
   .inner{
     //display: table-cell;
-    background: url(../images/TRESS-Logo-Vector.svg) no-repeat center center fixed; 
+    background: url(../images/TRESS-Logo-Vector.png) no-repeat center center fixed; 
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -135,7 +135,7 @@ li.opened span.nolink{color: $color_main;}
 
   >.inner{
     background-color: $color_accent;
-    padding: 80px;
+    padding: 40px;
     color: $page_bg;
     text-align: center;
     text-transform: uppercase;
@@ -151,6 +151,66 @@ li.opened span.nolink{color: $color_main;}
 
   a{
     color: #fff;
+  }
+}
+
+
+.signup{
+  padding: 40px;
+  background-color: darken($page_bg, 5%);
+  text-align: center;
+}
+
+form{
+  text-align: center;
+  position: relative;
+}
+
+.form-item{
+  @include inline-block;
+  margin: 0 10px;
+  text-align: left;
+}
+
+label{
+ display: block;
+ text-transform: uppercase;
+ color: $color_accent;
+ font-size: 12px;
+ font-weight: bold;
+ letter-spacing: 2px;
+}
+
+input[type="text"]{
+  width: 200px;
+  height: 40px;
+  padding: 0 5px;
+  line-height: 40px;
+  font-family: $font_main;
+  font-size: 18px;
+  color: $color_main;
+}
+
+button{
+  height: 40px;
+  padding: 0 15px;
+  line-height: 40px;
+  font-family: $font_main;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: $color_accent;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+
+  &:hover{
+    background-color: $page_bg;
+    color: $color_accent;
   }
 }
 
